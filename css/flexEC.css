@@ -7,9 +7,12 @@ font-size: 16px;
 .flex-container{
 display: flex;
 background-color: aquamarine   ;
+flex-direction: row;
 }
 
 .flex-container > div {
 background-color: brown;
-
+margin: 50px;
+padding: 20px;
+font-size: 2rem;
 }
